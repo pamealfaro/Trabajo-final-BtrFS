@@ -44,7 +44,7 @@ Se habilitaron cuotas mediante qgroups y se limitó el subvolumen datos a 300 MB
 Se generaron archivos de prueba mediante el comando dd
 ### Creación de Snapshots
 Se creó un snapshot readonly del subvolumen datos
-# Restauración de Información
+### Restauración de Información
 Usando el mecanismo Copy-on-Write (CoW), fue posible recuperar archivos eliminados restaurándolos desde los snapshots creados previamente.
 ### Automatización de Snapshots
 Se desarrolló un script Bash para:
