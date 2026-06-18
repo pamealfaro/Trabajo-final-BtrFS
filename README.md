@@ -72,4 +72,6 @@ Luego se ejecutó:
 * btrfs device add
 * btrfs balance start -dconvert=raid1 -mconvert=raid1
 BtrFS redistribuyó automáticamente los bloques para restaurar la redundancia.
-
+### Licencia
+Este proyecto se distribuye bajo la licencia MIT.
+Lea el archivo LICENSE para mas informacion
